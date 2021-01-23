@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='app.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav -->
+        <div class="topnav">
+            <button onClick="handleGS()" class="GS">Greyscale</button>
+            <button onClick="handleFD()" class="FD">Face Detection</button>
+            <button onClick="handleRF()" class="RF">Replace Face</button>
+            <button onClick="handleFS()" class="FS">Swap Face</button>
+        </div>
+
+        <form enctype="multipart/form-data" id="form">
+            <input type='file' accept="image/jpg image/png image/jpeg" id="submit1" onchange="loadFile(event)" />
+            <input type='file' accept="image/jpg" id="submit2" onchange="loadFile(event)" />
+            <button type="submit" id="submitButton">Upload</button>
+        </form>
+
+        <h1 class="modeDisplay">Please select a processing mode</h1>
+        <img id="upload1">
+        <img id="upload2">
+        <img id="output" />
+        <script src="{{ url_for('static',filename='script.js')}}"></script>
+    </div>
+</body>
+
+</html>

@@ -3,7 +3,7 @@ from process import *
 from flask_cors import CORS, cross_origin
 from flask_apscheduler import APScheduler
 import sys, os
-app = Flask(__name__, static_url_path='', static_folder='/static')
+app = Flask(__name__)
 cors = CORS(app)
 
 UPLOAD_FOLDER= './static/process/'
@@ -13,7 +13,7 @@ scheduler= APScheduler()
 
 @app.route('/')
 def index():
-    return '<h1>fuck </h1>'
+    return render_template('index.html')
 @app.route('/process/togrey',methods=['POST'])
 def toGrey():
     if len(request.files) ==  0:
