@@ -124,4 +124,4 @@ def emptyfolder():
 if __name__ == '__main__':
     scheduler.add_job(id='empty folder', func=emptyfolder,trigger='interval',seconds=180)
     scheduler.start()
-    app.run(debug=True)
+    app.run()
