@@ -19,7 +19,8 @@ i = 0.2126r + 0.7152g + 0.0722b
 
 Beacause humans are more sensitive to green.
 
-##Face detection
+
+## Face detection
 
 Face Detection using Haar Cascades from opencv.
 https://github.com/opencv/opencv/tree/master/data/haarcascades
