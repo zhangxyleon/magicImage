@@ -17,6 +17,7 @@ weighted average giving higher priority to green:
 
 i = 0.2126r + 0.7152g + 0.0722b
 
+Beacause humans are more sensitive to green.
 
 ##Face detection
 
