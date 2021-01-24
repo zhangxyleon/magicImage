@@ -15,5 +15,11 @@ for human perception. For example, a very naive method is to average red, green
 and blue intensities. A slightly better (and very popular method) is to take a
 weighted average giving higher priority to green: 
 
-<p align="center"><img src="/tex/a954b221cf9264cf11fcf943891f27bb.svg?invert_in_darkmode&sanitize=true" align=middle width=232.67438535pt height=14.611878599999999pt/></p>
 
+i = 0.2126r + 0.7152g + 0.0722b
+
+
+##Face detection
+
+Face Detection using Haar Cascades from opencv.
+https://github.com/opencv/opencv/tree/master/data/haarcascades
