@@ -1,6 +1,6 @@
 # magicImage
 
-magicImage is a flask app to process different images. I built this application to learn opencv and  practice flask. You can access it here: http://zhangxyleon.pythonanywhere.com/
+magicImage is a flask app to process images in several different ways. I built this application to learn opencv and  practice flask. You can access it here: http://zhangxyleon.pythonanywhere.com/
 
 
 
