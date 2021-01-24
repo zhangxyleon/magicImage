@@ -10,8 +10,7 @@ Surprisingly there are
 [many](https://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale)
 acceptable and reasonable ways to convert a color image into a
 [grayscale](https://en.wikipedia.org/wiki/Grayscale) ("black and white") image.
-The complexity of each method scales with the amount that method accommodates
-for human perception. For example, a very naive method is to average red, green
+For example, a very simple method is to average red, green
 and blue intensities. A slightly better (and very popular method) is to take a
 weighted average giving higher priority to green: 
 
