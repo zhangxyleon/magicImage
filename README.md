@@ -22,5 +22,5 @@ Beacause humans are more sensitive to green.
 
 ## Face detection
 
-Face Detection using Haar Cascades from opencv.
+Face Detection using Haar Cascades from opencv.<br />
 XML file: https://github.com/opencv/opencv/tree/master/data/haarcascades
